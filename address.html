@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ADDRESS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="/address.js" async defer></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+
+        <div class="container-fluid p-5">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Address Tracker</h4>
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-6 col-12 mg-b-20 form-group">
+                            <label>Province*</label>
+                            <select name="province" id="id_province" class="form-select" required>
+                                <option value="">---------</option>
+                                <option value="province_1">Province 1</option>
+                                <option value="madhesh_province">Madhesh Province</option>
+                                <option value="bagmati_province">Bagmati Province</option>
+                                <option value="gandaki_province">Gandaki Province</option>
+                                <option value="lumbini_province">Lumbini Province</option>
+                                <option value="karnali_province">Karnali Province</option>
+                                <option value="sudur_paschim_province">Sudur Paschim Province</option>
+                            </select>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-12 mg-b-20 form-group">
+                            <label>District*</label>
+                            <select name="district" id="id_district" class="form-select" required>
+                                <option value="">---------</option>
+                            </select>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-12 mg-b-20 form-group">
+                            <label>Municipality*</label>
+                            <select name="municipality" id="id_municipality" class="form-select" required>
+                                <option value="">---------</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
